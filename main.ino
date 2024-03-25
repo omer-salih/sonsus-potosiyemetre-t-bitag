@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   deger = analogRead(pin);
-  aci = map(deger, 0, 1023, 0, 360);
+  aci = map(deger, 0, 4095, 0, 360);
   if (deger < 100 && edeger > 900) {
     tur++;
   }
